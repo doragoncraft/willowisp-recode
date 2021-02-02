@@ -1,0 +1,16 @@
+name: Willowisp
+version: ${project.version}
+main: me.doragoncraft.willowisp.Willowisp
+api-version: 1.13
+authors: [Doragoncraft]
+description: spawn modify creepers
+
+commands:
+  creeper:
+    description: "spawn creeper"
+    usage: "creeper"
+
+permissions:
+  willowisp.spawn:
+    description: Allows you to spawn a wisp
+    default: op
